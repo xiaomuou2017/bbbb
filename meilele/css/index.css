@@ -209,6 +209,7 @@ nav a:hover{
     width: 1263px;
     height: 460px;
     position: relative;
+    overflow: hidden;
 }
 .scroll-item img{
     width: 1263px;
@@ -514,4 +515,159 @@ nav a:hover{
 .goods{
     position: absolute;
     background-color: #fff;
+}
+.footer-icon{
+    width: 1263px;
+    height: 152px;
+    background-color: #F8F8F8;
+    border-bottom:1px solid #ccc;
+}
+.footer-icon a{
+    display: inline-block;
+    width: 150px;
+    height: 80px;
+    margin-top: 35px;
+    text-align: center;
+}
+.footer-icon a:first-child{
+    margin-left: 28px;
+    text-align: center;
+}
+.footer-icon i{
+    display: block;
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+}
+.footer-icon span{
+    margin-top: 10px;
+    display: block;
+    color: #000;
+    font-size: 14px;
+}
+.icon-1{
+    background: url(../img/meilele/footerIcon.png)
+}
+.icon-2{
+    background: url(../img/meilele/footerIcon.png) -50px 0 ; 
+}
+.icon-3{
+    background: url(../img/meilele/footerIcon.png) -100px 0 ; 
+}
+.icon-4{
+    background: url(../img/meilele/footerIcon.png) -150px 0 ; 
+}
+.icon-5{
+    background: url(../img/meilele/footerIcon.png) -200px 0 ; 
+}
+.icon-6{
+    background: url(../img/meilele/footerIcon.png) -50px -50px ; 
+}
+.icon-7{
+    background: url(../img/meilele/footerIcon.png) -100px -50px ; 
+}
+.icon-8{
+    background: url(../img/meilele/footerIcon.png) -200px -50px ; 
+}
+.view{
+    width: 1233px;
+    height: 231px;
+    background-color: #f8f8f8;
+    padding-top: 35px;
+    padding-left: 30px;
+}
+.view-1{
+    width: 240px;
+    height: 165px;
+    display: inline-block;
+    float: left;
+}
+.view-1 li:nth-of-type(1){
+    color: #000;
+    font-size: 14px;
+    line-height: 19px;
+}
+.view-1 li:nth-of-type(2){
+    color: #E62318;
+    font-size: 20px;
+    line-height: 36px;
+}
+.view-1 li:nth-of-type(3){
+    color: #999;
+    font-size: 12px;
+    line-height: 16px;
+    margin-bottom: 30px;
+}
+.view-1 a{
+    width: 118px;
+    height: 26px;
+    color: #E62318;
+    font-size: 12px;
+    border: 1px solid #E62318;
+    padding:0 5px;
+    line-height: 26px;
+    margin-bottom: 10px;
+    display: block;
+    text-align: center;
+}
+.view-2 dl{
+    float: left;
+    width: 141px;
+}
+.view-2 dt{
+    font-size: 14px;
+    margin-bottom: 12px;
+}
+.view-2 a{
+    display: block;
+    font-size: 12px;
+    color: #999;
+    margin-top: 9px;
+}
+.view-2 img{
+    width: 96px;
+    height: 96px;
+}
+.footer_{
+    width: 1263px;
+    height: 172px;
+    background-color: #1f1f1f;
+    padding-top:20px ;
+}
+.footer_ span,a{
+    color: #777;
+    font-size: 12px;
+}
+.footer-1 a{
+    margin-left: 15px;
+}
+.footer-1{
+    width: 1200px;
+    height: 61px;
+    margin: 0 auto;
+    border-bottom:1px solid #666;
+    padding-bottom: 5px;
+}
+.footer-2{
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+.footer-2 ul{
+    float: right;
+    width: 388px;
+    margin-top: -20px;
+} 
+.footer-2 ul li{
+    float: left;
+    width: 97px;
+    height: 40px;
+}
+.footer-2 ul li span{
+    float: right;
+}
+.footer-2 ul li i{
+    float: left;
+    width: 26px;
+    height: 26px;
 }
